@@ -1,3 +1,5 @@
+package com.mycompany.app;
+
 import org.lwjgl.*;
 import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.*;
@@ -11,8 +13,12 @@ import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.system.MemoryStack.*;
 import static org.lwjgl.system.MemoryUtil.*;
 
-public class App {
-
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
 	// The window handle
 	private long window;
 
@@ -111,5 +117,4 @@ public class App {
 	public static void main(String[] args) {
 		new App().run();
 	}
-
 }
